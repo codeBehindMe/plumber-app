@@ -7,13 +7,6 @@ function(msg="") {
   list(msg = paste0("The message is: '", msg, "'"))
 }
 
-#* Echo back the input
-#* @param msg The message to echo
-#* @get /bye
-function(msg="") {
-  list(msg = paste0("bye: '", msg, "'"))
-}
-
 #* Return the sum of two numbers
 #* @param a The first number to add
 #* @param b The second number to add
